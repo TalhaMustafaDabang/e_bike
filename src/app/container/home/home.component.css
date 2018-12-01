@@ -1,0 +1,47 @@
+.header {
+    background-color: grey;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.padding-top-header {
+    padding-top: 5px;
+}
+
+.left-align {
+    float: left;
+    color: white;
+}
+
+.right-perc{
+    padding-left: 13px;
+    padding-right: 0px;
+}
+.left-pannel-height {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    
+}
+
+.bd-example {
+    position: relative;
+    /* padding: 1rem; */
+    padding-top: 0px;
+    margin: 0px;
+    border: solid #f7f7f9;
+    border-width: .2rem 0 0;
+}
+
+.right-align {
+    float: right;
+    color: white;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 0px;
+    margin-left: auto;
+}

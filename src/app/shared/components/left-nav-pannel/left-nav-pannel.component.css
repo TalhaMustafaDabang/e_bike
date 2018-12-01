@@ -1,0 +1,123 @@
+.left-nav-height{
+    flex: 1 1 auto;
+    padding: 0px;
+}
+.left-pannel-height{
+    margin:0px;
+}
+
+.bd-example {
+    position: relative;
+    /* padding: 1rem; */
+    padding-top: 0px;
+    margin: 0px;
+    border: solid #f7f7f9;
+    border-width: .2rem 0 0;
+    position: relative;
+    bottom: 4px;
+}
+
+.find-used-bike-modal {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+ .card-config {
+    width: 100%;
+    float: right;
+    position: relative;
+    top: 10%;
+    display: block;
+    margin-left: 13px;
+    border-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+ .card-config * {
+    margin-top: 5px;
+    margin-bottom: 5px;
+   ;
+    margin: 0 auto;
+}
+
+
+.dropDownUi {
+    background: transparent;
+    color: black;
+    border: none;
+    border-bottom: 2px solid;
+    width: 100%;
+    border-radius: 0px;
+}
+
+ .dropdown-menu-width {
+     width: 100%;
+     text-align: center;
+ } 
+
+ .dropdown{
+     width:100%;
+ }
+
+ .button-style {
+    width: 100%;
+    border-radius: unset;
+    margin: 0 auto;
+    
+ }
+
+ .btn-primary.btn1{
+     background: black;
+     border-color: black;
+     width: 100%;
+ }
+
+ .btn-primary.btn2{
+    background: red;
+    border-color: red;
+    width: 100%;
+}
+
+
+
+/*@media screen and (max-width: 900px) and (min-width: 801px){
+    .left-pannel-height {
+        margin-left: 67%;
+    } */
+/* }
+
+@media screen and (max-width: 1000px) and (min-width: 901px){
+    .left-pannel-height {
+        margin-left: 70%;
+    }
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 1001px){
+    .left-pannel-height {
+        margin-left: 68%;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1201px){
+    .left-pannel-height {
+        margin-left: 78%;
+    }
+} */
+
+
+
+/* @media screen and (max-width: 1600px) and (min-width: 1401px){
+    .left-pannel-height {
+        margin-left: 78%;
+    } */
+/* } */
+/* 
+@media screen and (max-width: 2200px) and (min-width: 1601px){
+    .left-pannel-height {
+        margin-left: 83%;
+    }
+} */

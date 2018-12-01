@@ -1,0 +1,36 @@
+.card-top-padding {
+    /* margin-top: 5%; */
+    width: 87%;
+    text-align: center; 
+    /* height: 50px; */
+    
+    /* padding-bottom: 65px; */
+    border-bottom: 2px solid;
+    border-radius: unset;
+    width: 87%;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+} 
+
+.Secondcard-top-padding {
+    
+    width: 87%;
+    text-align: center; 
+    height: 350px;;
+}
+
+.col img {
+    width: 100px;
+    height: 100px;
+}
+
+.padding-top-img {
+    padding-top: 5%;
+}
+
+.button-top-margin {
+    margin-top: 2%;
+}

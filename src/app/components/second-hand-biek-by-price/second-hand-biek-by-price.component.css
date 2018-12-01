@@ -1,0 +1,97 @@
+.card-top-padding {
+    margin-top: 5%;
+    width: 87%;
+    text-align: center;
+    height: 50px;
+    border-radius: unset;
+  }
+  
+  .content-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .secend-card-top-padding {
+    width: 87%;
+    text-align: center;
+    height: 330px;
+    border-radius: unset;
+  }
+  
+  
+  .card1 .col {
+    /* border: 1px solid grey; */
+    height: 50px;
+  
+  }
+  
+  .card2 .col {
+    /* border: 1px solid grey; */
+    height: 305px;
+  
+  }
+  
+  .img-fluid {
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+  .row{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+  
+  .img-card {
+    height: 50%;
+    border-radius: unset;
+    margin-top: 10%;
+  }
+  
+  .text-card {
+    height: 30%;
+    border-radius: unset;
+  }
+  
+  .button-align {
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+  }
+
+  .bikeTitle {
+    margin-bottom: 10px;
+    color: #2a2a2a;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.text-light-grey {
+  color: #82888b;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+  .activeClass {
+    border-bottom: 3px solid #ef3f30;;
+}
+
+.noActiveClass {
+    border-bottom: none;    
+}
+
+.heading {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  /* margin-top: 30px; */
+  position: relative;
+  top: 40px;
+}

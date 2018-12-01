@@ -1,0 +1,17 @@
+.page-Title {
+    color: #1a1a1a;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.margin-bottom15 {
+    margin-bottom: 15px;
+}
+
+.textStyle {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif, Arial;
+    color: #4d5057;
+    background: #f4f3f3;
+    font-style: normal;
+}

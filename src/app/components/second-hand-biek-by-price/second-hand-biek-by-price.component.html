@@ -1,0 +1,66 @@
+<h2 class="heading">
+  Find second-hand bikes</h2>
+  <div class="col">
+    <div class="content-center">
+      <div class="card card-top-padding">
+        <div class="row card1">
+          <div class="col" [ngClass]="active1 == true ? 'activeClass':'noActiveClass'" (click)="active1=true;active2=false;active3=false">Brand</div>
+          <div class="col" [ngClass]="active2 == true ? 'activeClass':'noActiveClass'" (click)="active1=false;active2=true;active3=false">City</div>
+          <div class="col" [ngClass]="active3 == true ? 'activeClass':'noActiveClass'" (click)="active1=false;active2=false;active3=true">Budget</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="content-center">
+      <div class="card secend-card-top-padding">
+
+        <div class="row card2">
+          <div class="col">
+            <div class="card img-card">
+              <img src="../../../assets/images/bajaj-pulsar-150.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card text-card">
+
+              <h3 class="bikeTitle">Used Bajaj Pulsar 150</h3>
+              <p class="text-light-grey">339 used bikes available</p>
+              <p>$ 10,000 onwards</p>
+
+            </div>
+
+
+          </div>
+          <div class="col">
+
+            <div class="card img-card">
+              <img src="../../../assets/images/bajaj-pulsar-150.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card text-card">
+              <h3 class="bikeTitle">Used Bajaj Pulsar 150</h3>
+              <p class="text-light-grey">339 used bikes available</p>
+              <p>$ 10,000 onwards</p>
+            </div>
+
+
+          </div>
+          <div class="col">
+
+            <div class="card img-card">
+              <img src="../../../assets/images/bajaj-pulsar-150.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card text-card">
+              <h3 class="bikeTitle">Used Bajaj Pulsar 150</h3>
+              <p class="text-light-grey">339 used bikes available</p>
+              <p>$ 10,000 onwards</p>
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-outline-primary button-align">Primary</button>
+
+      </div>
+
+    </div>
+  </div>

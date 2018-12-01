@@ -1,0 +1,74 @@
+.heading {
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: 700;
+    color: #223c7b;
+}
+.alert {
+    // background: #EE2805;
+    color:#EE2805;
+    padding: 7px;
+    font-size: .9em;
+    margin-bottom: 20px;
+    display: inline-block;
+    animation: 2s alertAnim forwards;
+  
+  
+  }
+  .card-body{
+  
+     padding-bottom: 0px;
+      padding-top: 0px;
+  }
+  
+  .form-container {
+    
+      display:block;
+      width:90%;
+      padding:2em;
+      padding-top: 0em;
+      padding-bottom:0em;
+      margin: 2em auto;
+      margin-top: 15px;
+   
+   
+      
+  }
+  .col {
+    
+        color:rgb(0, 0, 0);
+    }
+.sell-mandatory {
+    position: absolute;
+    top: 20px;
+    font-size: 10px;
+    white-space: nowrap;
+}
+
+.sub-title {
+    font-size: 21px;
+    color: #333;
+}
+
+.label-form {
+    font-size: 14px;
+    color: #666;
+    text-align: right;
+    padding-top: 5px;
+}
+
+hr {
+    position: relative;
+    bottom: 10px;
+}
+
+.sell-mandatory2 {
+    font-size: 10px;
+    white-space: nowrap;
+}
+
+center-center {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}

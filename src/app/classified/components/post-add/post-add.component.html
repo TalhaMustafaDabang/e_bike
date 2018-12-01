@@ -1,0 +1,218 @@
+<div class="row">
+  <div class="col-md-2 col-sm-4">
+    <app-nav-bar></app-nav-bar>
+
+  </div>
+
+  <div class="col-md-10">
+    <div class="container">
+
+
+
+      <h1 class="heading">Sell Your Bike</h1>
+
+      <div class="card">
+        <div class="card-body">
+
+
+          <div class="form-group row">
+            <label class="col-md-4 sub-title" for="price"> Bike Information </label>
+            <div class="col-md-8">
+              <div class="col-md-6">
+                <p class="sell-mandatory">All fields marked with * are mandatory</p>
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <hr>
+
+
+
+          <form [formGroup]="createAdds">
+           <div class="form-container">
+            <div class="form-group row">
+              <label class="col-md-4 label-form" for="price"> City
+                <span class="text-error">*</span>
+              </label>
+              <div class="col-md-8">
+                <div class="col-md-6">
+                  <input class="form-control"  name="price_formatted" placeholder="City" type="text" value="" formControlName="city" />
+                  <div class="alert" *ngIf="!createAdds.controls['city'].valid && createAdds.controls['city'].touched">This Field is Required</div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-md-4 label-form" for="price"> Year
+                <span class="text-error">*</span>
+              </label>
+              <div class="col-md-8">
+                <div class="col-md-6">
+                  <input class="form-control" id="price_formatted" name="price_formatted" placeholder="Bike Information" type="number" value="" formControlName="year" />
+                  <div class="alert" *ngIf="!createAdds.controls['year'].valid && createAdds.controls['year'].touched">This Field is Required</div>
+                  
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="form-group row">
+              <label class="col-md-4 label-form" for="price"> Brand
+                <span class="text-error">*</span>
+              </label>
+              <div class="col-md-8">
+                <div class="col-md-6">
+                  <select name="select" id="select" required class="form-control" formControlName="brand">
+                    <option value="cellPhnones">Cell Phones</option>
+                    <option value="computers">Computers</option>
+                    <option value="tablets">Tablets</option>
+
+                  </select>
+                  <div class="alert" *ngIf="!createAdds.controls['brand'].valid && createAdds.controls['brand'].touched">This Field is Required</div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+
+
+
+            <div class="form-group row">
+              <label class="col-md-4 label-form" for="price"> Price
+                <span class="text-error">*</span>
+                <span>(Rs.)</span>
+              </label>
+              <div class="col-md-8">
+                <div class="col-md-6">
+                  <input class="form-control" id="price_formatted" name="price_formatted" placeholder="Price" type="number" value="" formControlName="price" />
+                  <div class="alert" *ngIf="!createAdds.controls['price'].valid && createAdds.controls['price'].touched">This Field is Required</div>
+                  
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="form-group row">
+              <label class="col-md-4 label-form" for="price"> Describe Your Bike
+                <span class="text-error">*</span>
+              </label>
+              <div class="col-md-8">
+                <div class="col-md-7">
+                  <textarea class="form-control" rows="5" id="comment" formControlName="description"></textarea>
+                  <div class="alert" *ngIf="!createAdds.controls['description'].valid && createAdds.controls['description'].touched">This Field is Required</div>
+                  
+                </div>
+
+              </div>
+            </div>
+
+            <!-- <h1 class="sub-title"> Additional Information</h1>
+          <hr>
+
+          <div class="form-group row">
+            <label class="col-md-4 label-form" for="price"> Price
+              <span class="text-error">*</span>
+            </label>
+            <div class="col-md-8 row">
+              <div class="col-md-4">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1"> Anti Theft Lock</label>
+                </div>
+
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1"> Led Light</label>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1"> Disc Brake </label>
+                </div>
+
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Wind Shield</label>
+                </div>
+
+              </div>
+
+            </div>
+          </div> -->
+
+
+
+            <h1 class="sub-title"> Upload Photos</h1>
+            <hr>
+            <div class="form-group row">
+              <p class="col-md-4 label-form"> Photos </p>
+              <div class="col-md-8 ">
+                <button type="button" class="btn btn-primary">Upload</button>
+                <br>
+                <span class="sell-mandatory2">Photos should be in "jpeg, jpg, png, gif" format only.</span>
+                <br>
+                <span class="sell-mandatory2">You can select and upload multiple photos at the same time</span>
+              </div>
+            </div>
+
+
+            <h1 class="sub-title">Contact Information</h1>
+            <hr>
+
+
+            <div class="form-group row">
+              <label class="col-md-4 label-form" for="price"> Seller Name
+                <span class="text-error">*</span>
+              </label>
+              <div class="col-md-8">
+                <div class="col-md-6">
+                  <input class="form-control" id="price_formatted" name="price_formatted" placeholder="Seller Name" type="text" value="" formControlName="sellername" />
+                  <div class="alert" *ngIf="!createAdds.controls['sellername'].valid && createAdds.controls['sellername'].touched">This Field is Required</div>
+                  
+                </div>
+
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-md-4 label-form" for="price"> Mobile Number
+                <span class="text-error">*</span>
+                <span>(Rs.)</span>
+              </label>
+              <div class="col-md-8">
+                <div class="col-md-6">
+                  <input class="form-control" id="price_formatted" name="price_formatted" placeholder="Mobile Number" type="number" value="" formControlName="mobilenumber"
+                  />
+                  <div class="alert" *ngIf="!createAdds.controls['mobilenumber'].valid && createAdds.controls['mobilenumber'].touched">This Field is Required</div>
+                  
+                </div>
+
+              </div>
+            </div>
+
+            <hr>
+            <div style="text-align: center">
+              <button type="button" class="btn btn-primary"  (click)="submit()">Submit</button>
+              <!-- [disabled]="createAdds.status=='INVALID'" -->
+            </div>
+
+          </div>
+          </form>
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</div>

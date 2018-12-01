@@ -1,0 +1,137 @@
+.card-radius-remove {
+    border-radius: unset;
+}
+.title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2a2a2a;
+}
+
+/* .card-detail-time {
+    font-size: 12px;
+    color: #a8afb3;
+} */
+
+
+.card-details {
+    color: #4d5057;
+    font-size: 14px;  
+}
+
+
+.padleft5 {
+    padding-left: 15%;
+}
+
+
+.ad-sum {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+
+.fw7 {
+    font-weight: 700;
+}
+
+
+
+.card-top-padding {
+    margin-top: 5%;
+    width: 87%;
+    text-align: center;
+    height: 50px;
+    border-radius: unset;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.secend-card-top-padding {
+    width: 87%;
+    text-align: center;
+    height: 500px;
+    border-radius: unset;
+}
+
+
+.card1 .col {
+    height: 50px;
+
+}
+
+.card2 .col {
+    height: 350px;
+    margin-top: 2%;
+}
+
+
+.row1{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+.img-card {
+    height: 70%;
+    border-radius: unset;
+}
+
+.text-card {
+    height: 60%;
+    border-radius: unset;
+    padding-top: 6px;
+}
+
+
+
+
+
+
+.img-fluid {
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+
+
+.bikeTitle {
+    margin-bottom: 10px;
+    color: #2a2a2a;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.text-light-grey {
+    color: #82888b;
+}
+
+
+.heading {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+/* @media only screen and (min-width: 800px )  and (max-width: 1000px ){
+    .image-size {
+        width: 195px;
+    }
+  } */

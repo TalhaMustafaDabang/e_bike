@@ -1,0 +1,119 @@
+
+<div class="container-fluid">
+    <div class="row row1">
+        <div class="col-md-3">
+            <app-nav-bar></app-nav-bar>
+
+        </div>
+        <div class="col-md-6 offset-md-1 col-sm-12" style="margin-top: 15px">
+            
+            <div class="card">
+                <form [formGroup]="registerDealer">
+                    <div class="txt">SUBMIT A LISTING</div>
+
+                    <h6 class="card-header">CATEGORY SELECTION</h6>
+                    <div class="card-body">
+                      
+                        <div class="form-container">
+                           <label for="ShopName">Select Category *</label>
+                            <select class="form-control"  formControlName="cselection">
+
+
+                                <option>Dealer</option>
+                                <option>Mechanic</option>
+                            </select>
+                            <div class="alert" *ngIf="!registerDealer.controls['cselection'].valid && registerDealer.controls['cselection'].touched">This Field is Required</div>
+                        </div>
+
+                    </div>
+                    <h6 class="card-header">LISTING INFORMATION</h6>
+                    <div class="card-body">
+                        <div class="form-container col">
+                            <label for="ShopName">Shop Name *</label>
+                            <input id="ShopName" class="form-control" placeholder="Shop Name" formControlName="sname" required>
+                            <div class="alert" *ngIf="!registerDealer.controls['sname'].valid && registerDealer.controls['sname'].touched">This Field is Required and minimum 5 max 50 alphabets are required</div>
+                            
+                            <label for="ShopName">Brand *</label>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                    </div>
+                                    <select class="custom-select" id="inputGroupSelect01" formControlName="brand">
+                                        <option selected>All Type of Bikes</option>
+                                        <option value="1">Heavy Bikes</option>
+                                        <option value="2">Honda</option>
+                                        <option value="3">Suzuki</option>
+                                        <option value="4">Yamaha</option>
+                                        <option value="5">United</option>
+                                        <option value="6">Super Star</option>
+                                        <option value="7">Super Power</option>
+                                        <option value="8">Ghani</option>
+                                        <option value="9">Zxmco</option>
+                                        <option value="10">Treet</option>
+                                        <option value="11">Union Star</option>
+                                        <option value="12">Crown</option>
+                                        <option value="13">Eagle</option>
+                                        <option value="14">Habib</option>
+                                        <option value="15">Metro</option>
+                                        <option value="16">Road Prince</option>
+                                        <option value="17">Unique</option>
+                                        <option value="18">Ravi</option>
+                                        <option value="19">Hero</option>
+                                        <option value="20">Other</option>
+                                    </select>
+                                </div>
+                                <div class="alert" *ngIf="!registerDealer.controls['brand'].valid && registerDealer.controls['brand'].touched">This Field is Required</div>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber">Phone Number *</label>
+                                <input id="phoneNumber" type="Number" class="form-control" placeholder="Phone Number" formControlName="phone" required>
+                                <div class="alert" *ngIf="!registerDealer.controls['phone'].valid && registerDealer.controls['phone'].touched">This Field is Required</div>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Address *</label>
+                                <textarea class="form-control" formControlName="address" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="alert" *ngIf="!registerDealer.controls['address'].valid && registerDealer.controls['address'].touched">This Field is Required</div>
+                            
+                        </div>
+
+
+                    </div>
+                    <h6 class="card-header">LISTING IMAGES</h6>
+                    <div class="card-body">
+                            <div class="form-group">
+                            <label for="image">Images *</label>
+                            <div class="wrapper">
+                                <div class="drop">
+                                  <div class="cont">
+                                    
+                                   
+                                   
+                                   
+                                  </div>
+                                  
+                                </div>
+                              </div>
+
+                            </div>
+
+                            <!-- <button type="button" class="btn btn-danger btn-sm">Cancel</button>
+                            <button type="button" class="btn btn-success btn-sm">Upload</button> -->
+
+                    </div>
+
+
+
+                    <div class="submitBtn">
+                    <button type="button" class="btn btn-1 btn-md" (click)="submit()">Submit</button>
+                      </div>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>

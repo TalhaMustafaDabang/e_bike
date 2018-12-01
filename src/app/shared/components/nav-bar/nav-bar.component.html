@@ -1,0 +1,101 @@
+<div class="nav-side-menu">
+  <div class="brand">Brand Logo</div>
+  <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+  <div class="menu-list">
+
+    <ul id="menu-content" class="menu-content collapse out">
+      <li [routerLink]="['/home']">
+        <a>
+          <i class="fa fa-dashboard fa-lg"></i> Home
+        </a>
+      </li>
+
+      <li [routerLink]="['/newbikes-dashboard']">
+        <a>
+          <i class="fa fa-dashboard fa-lg"></i> New Bike
+        </a>
+      </li>
+
+      <li [routerLink]="['/shop']">
+        <a>
+          <i class="fa fa-dashboard fa-lg"></i> Shop
+        </a>
+      </li>
+     
+     <li data-toggle="collapse" data-target="#products" class="collapsed active">
+        <a>
+          <i class="fa fa-gift fa-lg"></i> classified
+          <span class="arrow"></span>
+        </a>
+      </li>
+      <ul class="sub-menu collapse" id="products">
+        <li class="active" [routerLink]="['/post-add']">
+          <a>Post Add</a>
+        </li>
+        <li [routerLink]="['/view-bikes']">
+          <a>View Bikes</a>
+        </li>
+      
+      </ul>
+
+    
+      <li data-toggle="collapse" data-target="#dealers" class="collapsed">
+        <a>
+          <i class="fa fa-globe fa-lg"></i> Dealers
+          <span class="arrow"></span>
+        </a>
+      </li>
+      <ul class="sub-menu collapse" id="dealers">
+         <li class="active" [routerLink]="['/register-info']">
+        <a>Register Information</a>
+         </li>
+         <li [routerLink]="['/dealers']">
+        <a>Dealers</a>
+      </li>
+      
+      </ul>
+   
+      <li>
+        <a>
+          <i class="fa fa-user fa-lg"></i> Blogs
+        </a>
+      </li>
+
+      <li>
+        <a>
+          <i class="fa fa-users fa-lg"></i> Users
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+<!-- <div class="row">
+  <div class="class=" container-fluid>
+
+    <nav class="navbar navbar-light bg-light">
+      <div class="col-sm">
+        <a class="navbar-brand"  >
+          <img src="assets/images/bimage.png" width="35" height="35" class="d-inline-block align-top" alt=""> Bootstrap
+        </a>
+      </div>
+      <div class="col-sm center-menu">
+        <button type="button" class="btn btn-success btn-sm">Post an Add</button>
+      </div>
+      <div class="col-sm right-menu">
+
+        <button type="button" class="btn btn-primary btn-sm">Sign Up</button>
+        <button type="button" class="btn btn-primary btn-sm">Log In</button>
+        <div class="searchIcon"></div>
+        <div class="menuIcon"></div>
+        <div class="cartIcon"></div>
+
+      </div>
+
+    </nav>
+
+  </div>
+</div> -->

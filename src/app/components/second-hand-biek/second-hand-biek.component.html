@@ -1,0 +1,84 @@
+<div class="container">
+
+  <div class="content-center">
+    <div style="border: 0px" class="card card-top-padding">
+      <div  class="card-body">
+        <h2>Find your biek by brand</h2>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="col"> -->
+    <div class="content-center">
+      <div style="border-bottom: 1px" class="card card-top-padding">
+        <div class="row card1">
+          <div class="col" [ngClass]="active1 == true ? 'activeClass':'noActiveClass'" (click)="active1=true;active2=false;active3=false">Brand</div>
+          <div class="col d-none d-xl-block d-lg-block d-md-block" [ngClass]="active2 == true ? 'activeClass':'noActiveClass'" (click)="active1=false;active2=true;active3=false">City</div>
+          <div class="col d-none d-xl-block d-lg-block " [ngClass]="active3 == true ? 'activeClass':'noActiveClass'" (click)="active1=false;active2=false;active3=true">Budget</div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="content-center">
+      <div style="padding-bottom: 20px" class="card card-top-padding">
+
+        <div class="row card2">
+          <div class="col">
+            <div class="card img-card">
+              <!-- <p> -->
+              <img src="../../../assets/images/bike.jpg" alt="" class="img-fluid">
+              <!-- </p> -->
+            </div>
+            <div class="card text-card">
+              <h3 class="bikeTitle">Used Bajaj Pulsar 150</h3>
+              <p class="text-light-grey">339 used bikes available</p>
+              <p>$ 10,000 onwards</p>
+
+            </div>
+
+
+          </div>
+          <div class="col d-none d-xl-block d-lg-block d-md-block">
+
+            <div class="card img-card">
+              <!-- <p> -->
+              <img src="../../../assets/images/bike.jpg" alt="" class="img-fluid">
+              <!-- </p> -->
+            </div>
+            <div class="card text-card">
+              <h3 class="bikeTitle">Used Royal Enfield Classic 350</h3>
+              <p class="text-light-grey">221 used bikes available</p>
+              <p>$ 55,000 onwards</p>
+            </div>
+
+
+          </div>
+          <div class="col d-none d-xl-block d-lg-block">
+
+            <div class="card img-card">
+              <!-- <p> -->
+              <img src="../../../assets/images/bike.jpg" alt="" class="img-fluid">
+              <!-- </p> -->
+            </div>
+            <div class="card text-card">
+              <h3 class="bikeTitle">Used Bajaj Pulsar 180</h3>
+              <p class="text-light-grey">179 used bikes available</p>
+              <p>$ 10,000 onwards</p>
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-outline-primary button-align">view all used bikes</button>
+
+      </div>
+
+    </div>
+  <!-- </div> -->
+
+</div>

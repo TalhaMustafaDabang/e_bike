@@ -1,0 +1,195 @@
+.heading {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    
+    margin-top: 40px;
+   
+}
+.button-align {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.button-center{
+    text-align: center;
+}
+.crd-top-padding{
+    border-top: 4px solid #3AB54A;
+    width:100% !important;
+    margin-top: 2% !important;
+}
+.u-marginTop15 {
+    margin-top: 15px!important;
+}
+.u-marginBottom15 {
+    margin-bottom: 15px!important;
+}
+
+.u-borderLighter {
+    border: 1px solid rgba(0,0,0,.15)!important;
+}
+
+.u-backgroundOriginBorderBox {
+    background-origin: border-box!important;
+}
+.u-backgroundSizeCover {
+    background-size: cover!important;
+}
+.u-backgroundColorGrayLight {
+    background-color: #f0f0f0!important;
+}
+
+.u-height172 {
+    height: 172px!important;
+}
+
+.u-block {
+    display: block!important;
+}
+.u-lineHeightBase {
+    line-height: 1.4!important;
+}
+.u-textScreenReader {
+    position: absolute!important;
+    width: 1px!important;
+    height: 1px!important;
+    overflow: hidden!important;
+    color: rgba(255,255,255,0)!important;
+    pointer-events: none!important;
+}
+
+.u-paddingTop15 {
+    padding-top: 15px!important;
+}
+
+.u-paddingRight0 {
+    padding-right: 0!important;
+}
+.u-paddingLeft0 {
+    padding-left: 0!important;
+}
+u-marginBottom30 {
+    margin-bottom: 30px!important;
+}
+
+.u-paddingBottom2 {
+    padding-bottom: 2px!important;
+}
+.u-paddingTop5 {
+    padding-top: 5px!important;
+}
+.u-lineHeightTighter {
+    line-height: 1.1!important;
+}
+
+.u-contentSansThin {
+    /* --x-height-multiplier: 0.342!important; */
+    /* --baseline-multiplier: 0.22!important; */
+    /* font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important; */
+    letter-spacing: -.02em!important;
+    font-weight: 300!important;
+    font-style: normal!important;
+    /* letter-spacing: 0!important; */
+}
+
+.v-glyph--m2 .u-contentSansBold {
+    font-weight: 600!important;
+}
+
+.avatar-image {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+.u-size36x36 {
+    width: 36px!important;
+    height: 36px!important;
+}
+
+.postMetaInline-authorLockup {
+    font-size: 16px;
+    line-height: 1.4;
+    padding-left: 10px;
+    text-rendering: auto;
+}
+.postMetaInline {
+    font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgba(0,0,0,.54);
+    fill: rgba(0,0,0,.54);
+}
+
+
+.postMetaInline-authorLockup {
+    font-size: 16px;
+    line-height: 1.4;
+    padding-left: 10px;
+    text-rendering: auto;
+}
+.postMetaInline {
+    font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgba(0,0,0,.54);
+    fill: rgba(0,0,0,.54);
+    display: block;
+}
+.u-accentColor--textNormal {
+    color: #3777C0 !important;
+}
+
+.link--accent {
+    color: #03a87c;
+    text-decoration: none;
+}
+.u-flexCenter {
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -webkit-box-align: center!important;
+    -webkit-align-items: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.u-textColorNormal {
+    color: rgba(0,0,0,.54)!important;
+    fill: rgba(0,0,0,.54)!important;
+}
+
+.u-marginTop20 {
+    margin-top: 20px!important;
+}
+
+
+.u-noWrapWithEllipsis {
+    white-space: nowrap!important;
+    text-overflow: ellipsis!important;
+    overflow: hidden!important;
+}
+.u-flex1 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+
+
+
+.col {
+    position: relative;
+    min-height: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+}

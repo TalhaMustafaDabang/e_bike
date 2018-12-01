@@ -1,0 +1,833 @@
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-2">
+            <app-nav-bar></app-nav-bar>
+
+        </div>
+        <div class="col-md-10 padding-dealers">
+            
+                <div class="mt10" id="main-container">
+
+
+                        <section>
+
+
+                            <div class="alert alert-danger" style="display:none" id="error_div">
+                                <button type="button" class="close" data-dismiss="alert">×</button>
+
+                            </div>
+
+                            <div class="alert alert-success" style="display:none" id="success_div">
+                                <button type="button" class="close" data-dismiss="alert">×</button>
+
+                            </div>
+
+                            <div class="alert alert-info" style="display:none">
+                                <button type="button" class="close" data-dismiss="alert">×</button>
+
+                            </div>
+
+                        </section>
+
+                        <section>
+                            <div class="container">
+                                <div class="used-car-search-results">
+                                    <ul class="breadcrumb" itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList">
+                                        <li itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem">
+                                            <a href="/" itemprop="url">
+                                                <span itemprop="name">Home</span>
+                                            </a>
+                                        </li>
+                                        <li class="active" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem">
+                                            <span itemprop="name">Dealers</span>
+                                        </li>
+                                    </ul>
+
+
+                                    <div class="search-page-new">
+                                        <div class="row">
+
+                                            <div class="col-md-3 used-car-refine-search dealer-refine-search pos-rel">
+                                                <div class="sidebar-filters">
+
+                                                    <div class="box">
+                                                        <div class="filter-panel-new">
+                                                            <div class="accordion" id="sidebar">
+                                                                <div class="accordion-group">
+                                                                    <div class="accordion-heading">
+                                                                        <a class="accordion-toggle collapsed" data-toggle="collapse" href="#collapse_search_key_keyword">
+                                                                            <i class="fa fa-caret-down"></i>Search By Name
+                                                                        </a>
+                                                                    </div>
+
+                                                                    <div id="collapse_search_key_keyword" class="accordion-body collapse in">
+                                                                        <div class="accordion-inner">
+                                                                            <form class="card p-2">
+                                                                                <div class="input-group">
+                                                                                    <input type="text" class="form-control" placeholder="Search">
+                                                                                    <div class="input-group-append">
+                                                                                        <button type="submit" class="btn btn-secondary">Go</button>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                </div>
+
+                                                                <div class="accordion-group">
+                                                                    <div class="accordion-heading">
+                                                                        <a class="accordion-toggle " data-toggle="collapse" href="#collapse_2">
+                                                                            <i class="fa fa-caret-down"></i>Brand </a>
+                                                                    </div>
+                                                                    <div id="collapse_2" class="accordion-body collapse in">
+                                                                        <div class="accordion-inner">
+                                                                            <ul>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="All Dealers">
+                                                                                        <a href="/new-cars/dealers/mk_all/" rel="nofollow"> All Types of bike</a>
+                                                                                        <span class="pull-right count">9</span>
+
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Suzuki Dealers">
+                                                                                        <a href="/new-cars/dealers/mk_suzuki/" rel="nofollow"> Suzuki</a>
+                                                                                        <span class="pull-right count">1</span>
+
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Unique Dealers">
+                                                                                        <a href="/new-cars/dealers/mk_unique/" rel="nofollow"> Unique</a>
+                                                                                        <span class="pull-right count">7</span>
+
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Yamaha Dealers">
+                                                                                        <a href="/new-cars/dealers/mk_yamaha/" rel="nofollow"> Yamaha</a>
+                                                                                        <span class="pull-right count">2</span>
+
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Honda Dealers">
+                                                                                        <a href="/new-cars/dealers/mk_honda/" rel="nofollow"> Honda</a>
+                                                                                        <span class="pull-right count">21</span>
+
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Ghani Dealers">
+                                                                                        <a href="/new-cars/dealers/mk_ghani/" rel="nofollow"> Ghani</a>
+                                                                                        <span class="pull-right count">2</span>
+
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Super Star Dealers">
+                                                                                        <a href="/new-cars/dealers/mk_super-star/" rel="nofollow"> Super Star</a>
+                                                                                        <span class="pull-right count">3</span>
+
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Super Power Dealers">
+                                                                                        <a href="/new-cars/dealers/mk_super-power/" rel="nofollow"> Super Power</a>
+                                                                                        <span class="pull-right count">1</span>
+
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Treet Dealers">
+                                                                                        <a href="/new-cars/dealers/mk_treet/" rel="nofollow"> Treet</a>
+                                                                                        <span class="pull-right count">3</span>
+
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Road Prince Dealers">
+                                                                                        <a href="/new-cars/dealers/mk_road-prince/" rel="nofollow"> Road Prince</a>
+                                                                                        <span class="pull-right count">2</span>
+
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Crown Dealers">
+                                                                                        <a href="/new-cars/dealers/mk_crown/" rel="nofollow"> Crown</a>
+                                                                                        <span class="pull-right count">5</span>
+
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Metro Dealers">
+                                                                                        <a href="/new-cars/dealers/mk_metro/" rel="nofollow"> Metro</a>
+                                                                                        <span class="pull-right count">8</span>
+
+                                                                                    </label>
+                                                                                </li>
+                                                                            </ul>
+                                                                            <div class="clearfix"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="accordion-group">
+                                                                    <div class="accordion-heading">
+                                                                        <a class="accordion-toggle " data-toggle="collapse" href="#collapse_1">
+                                                                            <i class="fa fa-caret-down"></i>Search By City </a>
+                                                                    </div>
+                                                                    <div id="collapse_1" class="accordion-body collapse in">
+                                                                        <div class="accordion-inner">
+                                                                            <ul id="dealers_cities_filter" style="overflow: hidden; height: 250px; padding-bottom: 15px;">
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Karachi">
+                                                                                        <a href="/new-cars/dealers/ct_karachi/" rel="nofollow"> Karachi</a>
+
+                                                                                        <span class="pull-right count">39</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Lahore">
+                                                                                        <a href="/new-cars/dealers/ct_lahore/" rel="nofollow"> Lahore</a>
+
+                                                                                        <span class="pull-right count">32</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Islamabad">
+                                                                                        <a href="/new-cars/dealers/ct_islamabad/" rel="nofollow"> Islamabad</a>
+
+                                                                                        <span class="pull-right count">11</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Rawalpindi">
+                                                                                        <a href="/new-cars/dealers/ct_rawalpindi/" rel="nofollow"> Rawalpindi</a>
+
+                                                                                        <span class="pull-right count">4</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Peshawar">
+                                                                                        <a href="/new-cars/dealers/ct_peshawar/" rel="nofollow"> Peshawar</a>
+
+                                                                                        <span class="pull-right count">7</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Abottabad">
+                                                                                        <a href="/new-cars/dealers/ct_abottabad/" rel="nofollow"> Abottabad</a>
+
+                                                                                        <span class="pull-right count">2</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Attock">
+                                                                                        <a href="/new-cars/dealers/ct_attock/" rel="nofollow"> Attock</a>
+
+                                                                                        <span class="pull-right count">1</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Bahawalpur">
+                                                                                        <a href="/new-cars/dealers/ct_bahawalpur/" rel="nofollow"> Bahawalpur</a>
+
+                                                                                        <span class="pull-right count">2</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Chakwal">
+                                                                                        <a href="/new-cars/dealers/ct_chakwal/" rel="nofollow"> Chakwal</a>
+
+                                                                                        <span class="pull-right count">1</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in D.G.Khan">
+                                                                                        <a href="/new-cars/dealers/ct_d-g-khan/" rel="nofollow"> D.G.Khan</a>
+
+                                                                                        <span class="pull-right count">2</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Dera ismail khan">
+                                                                                        <a href="/new-cars/dealers/ct_dera-ismail-khan/" rel="nofollow"> Dera ismail khan</a>
+
+                                                                                        <span class="pull-right count">2</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Faisalabad">
+                                                                                        <a href="/new-cars/dealers/ct_faisalabad/" rel="nofollow"> Faisalabad</a>
+
+                                                                                        <span class="pull-right count">9</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Gujranwala">
+                                                                                        <a href="/new-cars/dealers/ct_gujranwala/" rel="nofollow"> Gujranwala</a>
+
+                                                                                        <span class="pull-right count">4</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Hyderabad">
+                                                                                        <a href="/new-cars/dealers/ct_hyderabad/" rel="nofollow"> Hyderabad</a>
+
+                                                                                        <span class="pull-right count">7</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Jehlum">
+                                                                                        <a href="/new-cars/dealers/ct_jehlum/" rel="nofollow"> Jehlum</a>
+
+                                                                                        <span class="pull-right count">1</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Jhang">
+                                                                                        <a href="/new-cars/dealers/ct_jhang/" rel="nofollow"> Jhang</a>
+
+                                                                                        <span class="pull-right count">1</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Kasur">
+                                                                                        <a href="/new-cars/dealers/ct_kasur/" rel="nofollow"> Kasur</a>
+
+                                                                                        <span class="pull-right count">1</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Larkana">
+                                                                                        <a href="/new-cars/dealers/ct_larkana/" rel="nofollow"> Larkana</a>
+
+                                                                                        <span class="pull-right count">1</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Mardan">
+                                                                                        <a href="/new-cars/dealers/ct_mardan/" rel="nofollow"> Mardan</a>
+
+                                                                                        <span class="pull-right count">1</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Mian Wali">
+                                                                                        <a href="/new-cars/dealers/ct_mian-wali/" rel="nofollow"> Mian Wali</a>
+
+                                                                                        <span class="pull-right count">1</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Mirpur A.K.">
+                                                                                        <a href="/new-cars/dealers/ct_mirpur-a-k/" rel="nofollow"> Mirpur A.K.</a>
+
+                                                                                        <span class="pull-right count">3</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Multan">
+                                                                                        <a href="/new-cars/dealers/ct_multan/" rel="nofollow"> Multan</a>
+
+                                                                                        <span class="pull-right count">6</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Okara">
+                                                                                        <a href="/new-cars/dealers/ct_okara/" rel="nofollow"> Okara</a>
+
+                                                                                        <span class="pull-right count">1</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Quetta">
+                                                                                        <a href="/new-cars/dealers/ct_quetta/" rel="nofollow"> Quetta</a>
+
+                                                                                        <span class="pull-right count">3</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Rahim Yar Khan">
+                                                                                        <a href="/new-cars/dealers/ct_rahim-yar-khan/" rel="nofollow"> Rahim Yar Khan</a>
+
+                                                                                        <span class="pull-right count">2</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Sahiwal">
+                                                                                        <a href="/new-cars/dealers/ct_sahiwal/" rel="nofollow"> Sahiwal</a>
+
+                                                                                        <span class="pull-right count">3</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Sargodha">
+                                                                                        <a href="/new-cars/dealers/ct_sargodha/" rel="nofollow"> Sargodha</a>
+
+                                                                                        <span class="pull-right count">3</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Sialkot">
+                                                                                        <a href="/new-cars/dealers/ct_sialkot/" rel="nofollow"> Sialkot</a>
+
+                                                                                        <span class="pull-right count">3</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Sukkur">
+                                                                                        <a href="/new-cars/dealers/ct_sukkur/" rel="nofollow"> Sukkur</a>
+
+                                                                                        <span class="pull-right count">1</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label class="filter-check">
+                                                                                        <input type="checkbox" title="Dealers in Vehari">
+                                                                                        <a href="/new-cars/dealers/ct_vehari/" rel="nofollow"> Vehari</a>
+
+                                                                                        <span class="pull-right count">1</span>
+                                                                                    </label>
+                                                                                </li>
+                                                                            </ul>
+                                                                            <div class="text-right" id="show_more_link">
+                                                                                <a href="javascript:void(0);" onclick="$('#show_more_link').hide();$('#show_less_link').show();$('#dealers_cities_filter').animate({height: actual_height_for_write_up},500);">
+                                                                                    Show More
+                                                                                    <i class="fa fa-chevron-down"></i>
+                                                                                </a>
+                                                                            </div>
+
+
+                                                                            <div class="text-right" id="show_less_link" style="display: none">
+                                                                                <a href="javascript:void(0);" onclick="$('#show_less_link').hide();$('#show_more_link').show();$('#dealers_cities_filter').animate({height: '250px'},500);">
+                                                                                    Show Less
+                                                                                    <i class="fa fa-chevron-up"></i>
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="clearfix"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="banner-sidebar-outer">
+                                                    <div class="banner-160-600 mt30 text-center">
+                                                        <div id="div-gpt-PakWheels_UsedCars_Search_ATF_VerticalBar_160x600" data-google-query-id="CPLFpf3Fy9sCFQJuGwodKegOjg">
+                                                            <script type="text/javascript">
+                                                                googletag.cmd.push(function () { googletag.display("div-gpt-PakWheels_UsedCars_Search_ATF_VerticalBar_160x600"); });
+                                                            </script>
+                                                            <div id="google_ads_iframe_/1012037/PakWheels_UsedCars_Search_ATF_VerticalBar_160x600_0__container__" style="border: 0pt none; display: inline-block; width: 160px; height: 600px;">
+                                                                <iframe frameborder="0" src="https://tpc.googlesyndication.com/safeframe/1-0-28/html/container.html" id="google_ads_iframe_/1012037/PakWheels_UsedCars_Search_ATF_VerticalBar_160x600_0"
+                                                                    title="3rd party ad content" name="" scrolling="no" marginwidth="0"
+                                                                    marginheight="0" width="160" height="600" data-is-safeframe="true"
+                                                                    sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                                                                    style="border: 0px; vertical-align: bottom;"></iframe>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-9 dealer-search-listing ">
+                                                <h1 class="heading1"> Bike Dealers &amp; Mechanics in Pakistan</h1>
+                                                <div>
+                                                    <ul class="list-unstyled search-results dealer-listing">
+                                                        <li itemscope="" itemtype="http://schema.org/AutoDealer">
+                                                            <div class="pos-rel">
+                                                                <div class="well search-list clearfix">
+                                                                    <div class="col-md-4">
+                                                                        <a href="/new-cars/dealers/adil-zaffar-motors-showroom-in-lahore" class="dealerships-logo car-point" itemprop="url">
+                                                                            <img alt="Adil Zaffar Motors" class="lazy position" itemprop="image" src="https://cache2.pakwheels.com/system/car_manufacturers/manufacturers/000/000/041/resized/car-logos_suzuki.png"
+                                                                                title="Suzuki Bikers">
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="col-md-8 grid-style pos-rel">
+                                                                        <a href="/new-cars/dealers/adil-zaffar-motors-showroom-in-lahore" class="car-name" itemprop="url">
+                                                                            <h3>
+                                                                                Suzuki Bikers
+                                                                                <meta itemprop="name" content="Suzuki Bikers">
+                                                                            </h3>
+                                                                        </a>
+                                                                        <p class="city-details" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                                                                            <span class="ct_text">Suzuki Dealers - Lahore</span>
+                                                                            <meta itemprop="addressRegion" content="Lahore">
+                                                                        </p>
+                                                                        <div class="row mt5">
+                                                                            <div class="col-md-8">
+                                                                                <ul class="description list-unstyled" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                                                                                    <li itemprop="streetAddress">
+                                                                                        <i class="fa fa-map-marker tlc"></i> 10 Km, Main Multan Road, Hanjarawal
+                                                                                        Opp. Canal View Housing Society</li>
+                                                                                    <li itemprop="telephone">
+                                                                                        <i class="fa fa-phone tlc"></i> 042-35421544, 042-35430336</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div class="col-md-4 tlc pos-rel">
+                                                                                <strong class="generic-dark-grey"></strong>
+                                                                                <p class="mb5">
+                                                                                    <span class="rating generic-orange fs12 ">
+
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                    </span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+
+
+                                                                </div>
+
+                                                            </div>
+                                                        </li>
+
+                                                        <li itemscope="" itemtype="http://schema.org/AutoDealer">
+                                                            <div class="pos-rel">
+                                                                <div class="well search-list clearfix">
+                                                                    <div class="col-md-4 disp-inline-block">
+                                                                        <a href="/new-cars/dealers/audi-center-islamabad-showroom-in-pakistan" class="dealerships-logo car-point" itemprop="url">
+                                                                            <img alt="Yamaha Center Islamabad" class="lazy position" itemprop="image" src="https://i1.wp.com/www.ebike.pk/wp-content/uploads/2017/05/yamaha-motorcycle-logo-bw-5.jpg?resize=150%2C150&ssl=1"
+                                                                                title="Yamaha Center Islamabad">
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="col-md-7 grid-style pos-rel disp-inline-block">
+                                                                        <a href="/new-cars/dealers/audi-center-islamabad-showroom-in-pakistan" class="car-name" itemprop="url">
+                                                                            <h3>
+                                                                                Yamaha Islamabad
+                                                                                <meta itemprop="name" content="Audi Center Islamabad">
+                                                                            </h3>
+                                                                        </a>
+                                                                        <p class="city-details" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                                                                            <span class="ct_text">Yamaha Dealers - Islamabad</span>
+                                                                            <meta itemprop="addressRegion" content="Islamabad">
+                                                                        </p>
+                                                                        <div class="row mt5">
+                                                                            <div class="col-md-8  ">
+                                                                                <ul class="description list-unstyled" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                                                                                    <li itemprop="streetAddress">
+                                                                                        <i class="fa fa-map-marker tlc"></i> 1.5km Golra Road</li>
+                                                                                    <li itemprop="telephone">
+                                                                                        <i class="fa fa-phone tlc"></i> 051-8433140-141</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div class="col-md-4 tlc pos-rel">
+                                                                                <strong class="generic-dark-grey">1 Review</strong>
+                                                                                <p class="mb5">
+                                                                                    <span class="rating generic-orange fs12 ">
+
+                                                                                        <i class="fa fa-star"></i>
+                                                                                        <i class="fa fa-star"></i>
+                                                                                        <i class="fa fa-star"></i>
+                                                                                        <i class="fa fa-star"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                    </span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+
+
+                                                                </div>
+
+                                                            </div>
+                                                        </li>
+
+
+                                                        <li itemscope="" itemtype="http://schema.org/AutoDealer">
+                                                            <div class="pos-rel">
+                                                                <div class="well search-list clearfix">
+                                                                    <div class="col-md-4  disp-inline-block">
+                                                                        <a href="/new-cars/dealers/audi-center-lahore-showroom-in-pakistan" class="dealerships-logo car-point" itemprop="url">
+                                                                            <img alt="Ghani Center Lahore" class="lazy position" itemprop="image" src="https://i1.wp.com/www.ebike.pk/wp-content/uploads/2017/06/ghani-motorcycle-logo-54.jpg?resize=150%2C150&ssl=1"
+                                                                                title="Ghani Center Lahore">
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="col-md-7 grid-style pos-rel  disp-inline-block">
+                                                                        <a href="/new-cars/dealers/audi-center-lahore-showroom-in-pakistan" class="car-name" itemprop="url">
+                                                                            <h3>
+                                                                                Ghani Center Lahore
+                                                                                <meta itemprop="name" content="Ghani Center Lahore">
+                                                                            </h3>
+                                                                        </a>
+                                                                        <p class="city-details" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                                                                            <span class="ct_text">Ghani Dealers - Lahore</span>
+                                                                            <meta itemprop="addressRegion" content="Lahore">
+                                                                        </p>
+                                                                        <div class="row mt5">
+                                                                            <div class="col-md-8">
+                                                                                <ul class="description list-unstyled" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                                                                                    <li itemprop="streetAddress">
+                                                                                        <i class="fa fa-map-marker tlc"></i> 10-D, Nawab Town 2km Raiwind
+                                                                                        Road</li>
+                                                                                    <li itemprop="telephone">
+                                                                                        <i class="fa fa-phone tlc"></i> 042-35310348</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div class="col-md-4 tlc pos-rel">
+                                                                                <strong class="generic-dark-grey"></strong>
+                                                                                <p class="mb5">
+                                                                                    <span class="rating generic-orange fs12 ">
+
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                    </span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+
+
+                                                                </div>
+
+                                                            </div>
+                                                        </li>
+
+                                                        <li itemscope="" itemtype="http://schema.org/AutoDealer">
+                                                            <div class="pos-rel">
+                                                                <div class="well search-list clearfix">
+                                                                    <div class="col-md-4">
+                                                                        <a href="/new-cars/dealers/bahawalpur-motors-showroom-in-pakistan" class="dealerships-logo car-point" itemprop="url">
+                                                                            <img alt="Bahawalpur Honda Bikers" class="lazy position" itemprop="image" src="https://cache2.pakwheels.com/system/car_manufacturers/manufacturers/000/000/041/resized/car-logos_suzuki.png"
+                                                                                title="Bahawalpur Suzuki Bikers Motors">
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="col-md-8 grid-style pos-rel">
+                                                                        <a href="/new-cars/dealers/bahawalpur-motors-showroom-in-pakistan" class="car-name" itemprop="url">
+                                                                            <h3>
+                                                                                Bahawalpur Suzuki Bikers
+                                                                                <meta itemprop="name" content="Bahawalpur Motors">
+                                                                            </h3>
+                                                                        </a>
+                                                                        <p class="city-details" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                                                                            <span class="ct_text">Suzuki Dealers - Bahawalpur</span>
+                                                                            <meta itemprop="addressRegion" content="Bahawalpur">
+                                                                        </p>
+                                                                        <div class="row mt5">
+                                                                            <div class="col-md-8">
+                                                                                <ul class="description list-unstyled" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                                                                                    <li itemprop="streetAddress">
+                                                                                        <i class="fa fa-map-marker tlc"></i> Shafiq Plaza, Multan Road</li>
+                                                                                    <li itemprop="telephone">
+                                                                                        <i class="fa fa-phone tlc"></i> 062-2880230, 062-2888222</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div class="col-md-4 tlc pos-rel">
+                                                                                <strong class="generic-dark-grey">1 Review</strong>
+                                                                                <p class="mb5">
+                                                                                    <span class="rating generic-orange fs12 ">
+
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                    </span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+
+
+                                                                </div>
+
+                                                            </div>
+                                                        </li>
+
+                                                        <div class="banner-468-60 mb20 text-center">
+                                                            <div id="div-gpt-PakWheels_UsedCars_Search_ATF_BelowFeaturedAds_468x60" data-google-query-id="CP7en_3Fy9sCFYSlUQod3EMKQA">
+                                                                <script type="text/javascript">
+                                                                    googletag.cmd.push(function () { googletag.display("div-gpt-PakWheels_UsedCars_Search_ATF_BelowFeaturedAds_468x60"); });
+                                                                </script>
+                                                                <div id="google_ads_iframe_/1012037/PakWheels_UsedCars_Search_ATF_BelowFeaturedAds_468x60_0__container__" style="border: 0pt none;">
+                                                                    <iframe id="google_ads_iframe_/1012037/PakWheels_UsedCars_Search_ATF_BelowFeaturedAds_468x60_0" title="3rd party ad content"
+                                                                        name="google_ads_iframe_/1012037/PakWheels_UsedCars_Search_ATF_BelowFeaturedAds_468x60_0"
+                                                                        width="468" height="60" scrolling="no" marginwidth="0"
+                                                                        marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;"></iframe>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <li itemscope="" itemtype="http://schema.org/AutoDealer">
+                                                            <div class="pos-rel">
+                                                                <div class="well search-list clearfix">
+                                                                    <div class="col-md-4  disp-inline-block">
+                                                                        <a href="/new-cars/dealers/dewan-motors-private-limited-showroom-in-pakistan--4" class="dealerships-logo car-point" itemprop="url">
+                                                                            <img alt="Dewan Motors Private Limited" class="lazy position" itemprop="image" src="https://i1.wp.com/www.ebike.pk/wp-content/uploads/2017/06/ghani-motorcycle-logo-54.jpg?resize=150%2C150&ssl=1"
+                                                                                title="Dewan Motors Private Limited">
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="col-md-7 grid-style pos-rel  disp-inline-block">
+                                                                        <a href="/new-cars/dealers/dewan-motors-private-limited-showroom-in-pakistan--4" class="car-name" itemprop="url">
+                                                                            <h3>
+                                                                                Ghani Bike Wala Private Limited
+                                                                                <meta itemprop="name" content="Dewan Motors Private Limited">
+                                                                            </h3>
+                                                                        </a>
+                                                                        <p class="city-details" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                                                                            <span class="ct_text">BMW Dealers - Islamabad</span>
+                                                                            <meta itemprop="addressRegion" content="Islamabad">
+                                                                        </p>
+                                                                        <div class="row mt5">
+                                                                            <div class="col-md-8">
+                                                                                <ul class="description list-unstyled" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                                                                                    <li itemprop="streetAddress">
+                                                                                        <i class="fa fa-map-marker tlc"></i> BMW Display Centre, Sohrab Plaza,
+                                                                                        Ground Floor, Jinnah Avenue, Blue
+                                                                                        Area.</li>
+                                                                                    <li itemprop="telephone">
+                                                                                        <i class="fa fa-phone tlc"></i> 051-2871880-81</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div class="col-md-4 tlc pos-rel">
+                                                                                <strong class="generic-dark-grey"></strong>
+                                                                                <p class="mb5">
+                                                                                    <span class="rating generic-orange fs12 ">
+
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                        <i class="fa fa-star-o"></i>
+                                                                                    </span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+
+
+                                                                </div>
+
+                                                            </div>
+                                                        </li>
+
+                                                    </ul>
+                                                    <div class="banner-468-60 mb20 text-center">
+                                                        <div id="div-gpt-PakWheels_UsedCars_Search_BTF_AbovePagination_468x60" data-google-query-id="CP7huf3Fy9sCFcuLUQodGyoA2w">
+                                                            <script type="text/javascript">
+                                                                googletag.cmd.push(function () { googletag.display("div-gpt-PakWheels_UsedCars_Search_BTF_AbovePagination_468x60"); });
+                                                            </script>
+                                                            <div id="google_ads_iframe_/1012037/PakWheels_UsedCars_Search_BTF_AbovePagination_468x60_0__container__" style="border: 0pt none; display: inline-block; width: 728px; height: 90px;">
+                                                                <iframe frameborder="0" src="https://tpc.googlesyndication.com/safeframe/1-0-28/html/container.html" id="google_ads_iframe_/1012037/PakWheels_UsedCars_Search_BTF_AbovePagination_468x60_0"
+                                                                    title="3rd party ad content" name="" scrolling="no" marginwidth="0"
+                                                                    marginheight="0" width="728" height="90" data-is-safeframe="true"
+                                                                    sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                                                                    style="border: 0px; vertical-align: bottom;"></iframe>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div data-pjax-enable="">
+                                                        <ul class="pagination search-pagi">
+
+
+                                                            <li class="page active">
+                                                                <a href="/new-cars/dealers/">1</a>
+                                                            </li>
+
+                                                            <li class="page">
+                                                                <a href="/new-cars/dealers/?page=2" rel="next">2</a>
+                                                            </li>
+
+                                                            <li class="page">
+                                                                <a href="/new-cars/dealers/?page=3">3</a>
+                                                            </li>
+
+                                                            <li class="page">
+                                                                <a href="/new-cars/dealers/?page=4">4</a>
+                                                            </li>
+
+                                                            <li class="page">
+                                                                <a href="/new-cars/dealers/?page=5">5</a>
+                                                            </li>
+
+                                                            <li class="page gap disabled">
+                                                                <a href="#" onclick="return false;">…</a>
+                                                            </li>
+                                                            <li class="next_page">
+                                                                <a href="/new-cars/dealers/?page=2" rel="next">Next ›</a>
+                                                            </li>
+
+                                                            <li class="last next">
+                                                                <a href="/new-cars/dealers/?page=15">Last »</a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+
+
+              
+           
+        </div>
+    </div>
+</div>

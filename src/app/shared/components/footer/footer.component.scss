@@ -1,0 +1,70 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    background-color: #212529;
+    color:white;
+}
+
+.footer_padding {
+    padding: 25px 30px;
+    padding-bottom: 0px;
+}
+
+h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    }
+.bikeBrands{
+    padding: 0 0 0 13px;
+    width: 100%;
+    list-style-type: none;
+}
+
+.bikeBrands li{
+    height:25px;
+    line-height: 14px;
+}
+
+
+.copyright{
+    padding:8px;
+    text-align: center;
+    color:#fff;
+    border-top:1px solid #d3d3d3;
+}
+.right {
+    right:15px
+}
+
+.appstoreIcon, .googlestoreIcon {
+    display: inline-block;
+    position: relative;
+    width: 129px;
+    height: 40px;
+    background-image:url('../../../../assets/images/app-store-icons.png');
+    background-repeat: no-repeat;
+    background-position: -3px -2px;
+    background-size: 274px 36px;
+    margin-right: 5px;
+    margin-top:15px;
+   
+}
+
+.googlestoreIcon {
+    background-position: -144px -2px;
+}
+.appstoreIcon{
+    margin-left: 10px;
+}
+
+.col-7 {
+    -ms-flex: 0 0 53.333333%;
+    flex: 0 0 53.333333%;
+    max-width: 53.333333%;
+}

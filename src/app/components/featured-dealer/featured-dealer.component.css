@@ -1,0 +1,191 @@
+.card-top-padding {
+  /* margin-top: 5%; */
+  width: 87%;
+  text-align: center; 
+  /* height: 50px; */
+  
+  /* padding-bottom: 65px; */
+  border-bottom: 2px solid;
+  border-radius: unset;
+  width: 87%;
+}
+  
+  .content-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .secend-card-top-padding {
+    margin-top: 5%;
+    width: 87%;
+    text-align: center;
+    height: 290px;
+    border-radius: unset;
+
+  }
+  
+  
+  .card1 .col {
+    /* border: 1px solid grey; */
+    height: 50px;
+  
+  }
+  
+  .card2 .col {
+    /* border: 1px solid grey; */
+    height: 350px;
+  
+  }
+  
+  
+  .row{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+  
+  .img-card {
+    height: 70%;
+    border-radius: unset;
+    margin-top: 10%;
+  }
+  
+  .text-card {
+    height: 30%;
+    border-radius: unset;
+  }
+  
+  .button-align {
+    /* width: 25%; */
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .featureHeading {
+    text-align: center;
+    position: relative;
+    top: 62px;    
+  }
+
+
+  .heading {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    top: 40px;
+}
+
+div li {
+    list-style: none;
+}
+
+.review-card__winner {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+
+.bg-color--teal {
+  background: #41b4c4;
+}
+.vertical-ribbon {
+  position: relative;
+  width: 14px;
+  height: 35px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.trophy-teal-10x12:before {
+  content: '';
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 4px;
+  left: -4px;
+  border: 1px solid #4d5057;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: #fff url(https://imgd.aeplcdn.com/0x0/bw/static/icons/41b4c4/trophy-10x12.png) no-repeat 50%;
+}
+
+.review-card__author-circle {
+  width: 40px;
+  height: 40px;
+  background: #f5f5f5 url(https://imgd.aeplcdn.com/0x0/bw/static/icons/john-doe-30x36.png) no-repeat 50% bottom;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.review-card__author {
+  font-size: 12px;
+  padding-top: 30px;
+}
+
+
+.rating-badge {
+  min-width: 40px;
+  height: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.star-white {
+  width: 12px;
+  height: 12px;
+  background-position: -218px -103px;
+  position: relative;
+  top: 1px;
+  margin-right: 4px;
+}
+
+.bwsprite {
+  background: url(https://imgd.aeplcdn.com/0x0/bw/static/sprites/d/bwsprite-v3.png?05July20171499235738247) no-repeat;
+  display: inline-block;
+}
+
+.review-card__bike.text-truncate {
+  text-align: center;
+}
+
+.review-card__desc {
+  color: #787878;
+  margin-bottom: 8px;
+}
+
+.review-card__date {
+  color: #82888b;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.article-target-read-more {
+  color: #0288d1;
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer;
+}

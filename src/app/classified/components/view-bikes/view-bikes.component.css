@@ -1,0 +1,129 @@
+.headerAlign {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pdL5 {
+    padding-left: 5%;
+    width: 60%;
+}
+
+.mrgR5 {
+    margin-right: 5%;
+}
+
+.card-radius-remove {
+    border-radius: unset;
+    /* width: 230px; */
+}
+
+.dFlex {
+    display: flex;
+}
+
+.mar-ped0 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.left-card-config {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.list-style {
+    list-style: none
+}
+
+.list-style li {
+    padding-top: 7px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+li, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.img-card-height {
+    height: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.font-14 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-details {
+    color: #82888b;
+    font-size: 14px;
+}
+
+.card-detail-time {
+    font-size: 12px;
+    color: #a8afb3;
+}
+
+select {
+    width: 80%;
+}
+
+.margin-top-40px {
+    margin-top: 40px;
+}
+
+.detail-style-promotion {
+    line-height: 0.2;
+    padding-left: 15px;
+}
+
+.pad0 {
+    padding: 0px !important;
+}
+
+.wd150px {
+    width: 150px;
+}
+
+.bike-category {
+    color: #b4b4b4;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bike-title-feature {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #2B2B2B;
+    padding: 0px 0px 0px 0px;
+}
+
+.bike-price-feature {
+    color: #ff7700;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    bottom: 40px;
+    right: 7px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.e:hover{
+    background-color:#3560BD;
+ }
+
+ .h40 {
+    height: 40px;
+ }

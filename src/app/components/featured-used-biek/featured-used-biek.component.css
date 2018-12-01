@@ -1,0 +1,155 @@
+/* .heading {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  
+  margin-top: 40px;
+ 
+} */
+
+.card-top-padding {
+  /* margin-top: 5%; */
+  width: 87%;
+  text-align: center; 
+  /* height: 50px; */
+  
+  /* padding-bottom: 65px; */
+  border-bottom: 2px solid;
+  border-radius: unset;
+  width: 87%;
+}
+
+
+.card2 .col {
+  /* border: 1px solid grey; */
+  height: 350px;
+  margin-top: 2%;
+}
+
+
+
+.row{
+  display: flex;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+}
+
+.img-card {
+  height: 70%;
+  border-radius: unset;
+}
+
+.button-align {
+  /* width: 40%; */
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.card2 .col {
+  /* border: 1px solid grey; */
+  height: 400px;
+  margin-top: 2%;
+}
+.content-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* .crd-top-padding{
+  border-top: 4px solid #3AB54A;
+  width:87% !important;
+  margin-top: 2% !important;
+} */
+
+.u-block[_ngcontent-c12] {
+  display: block!important;
+}
+
+.u-height172[_ngcontent-c12] {
+  height: 172px!important;
+}
+
+.u-backgroundColorGrayLight {
+  background-color: #f0f0f0!important;
+}
+
+.u-backgroundSizeCover {
+  background-size: cover!important;
+}
+
+.u-backgroundOriginBorderBox {
+  background-origin: border-box!important;
+}
+
+.u-borderLighter {
+  border: 1px solid rgba(0,0,0,.15)!important;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.col {
+  position: relative;
+  min-height: 1px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.crd-feat {
+  width: 100%;
+  margin-left: 0px;
+}
+
+.ribbon {
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  text-align: right;
+}
+
+.ribbon span{
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9BC90D), to(#79A70A));
+  background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+  -webkit-box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px;
+  left: -21px;
+}
+
+.img-card {
+  height: 70%;
+  border-radius: unset;
+}
+.text-card {
+  height: 30%;
+  border-radius: unset;
+}
+
+.button-center{
+  text-align: center;
+}
+
+card
+{
+
+}

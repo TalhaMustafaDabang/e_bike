@@ -1,0 +1,11 @@
+.card-top-padding {
+    margin-top: 5%;
+    width: 85%;
+    text-align: center; 
+    height: 150px;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+}

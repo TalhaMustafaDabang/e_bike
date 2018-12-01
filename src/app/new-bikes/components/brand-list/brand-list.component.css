@@ -1,0 +1,65 @@
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.pricelist-box {
+    text-align: center;
+}
+
+.mb30 {
+    margin-bottom: 30px !important;
+    border: 1px solid cornflowerblue;
+}
+
+.mb20{
+    margin-bottom: 20px !important;
+}
+
+ .logo {
+    height: 120px;
+    line-height: 120px;
+    overflow: hidden;
+    background: white;
+}
+
+.car-name {
+    line-height: 28px;
+    color: #223c7a;
+    border-top: 1px solid #EAEDEF;
+    text-transform: uppercase;
+    background: white;
+    font-family: "Roboto",Arial,Helvetica,Sans-Serif;
+    font-size: 14px;
+    
+}
+
+.centerAll {
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.logo img {
+    max-height: 80px;
+}
+
+:host/deep/.right   { 
+    background-color:#f7f8f9 !important;
+  } 
+  
+ 
+ .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 0px !important;
+        margin-right: auto;
+        margin-left: 0px !important;
+      
+      }
+.heading {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    /* margin-top: 30px; */
+    position: relative;
+    top: 60px;
+}

@@ -1,0 +1,43 @@
+.menu-list {
+    background: #f0f0ed;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    border-bottom:2px solid orange;
+}
+
+.menu-list li {
+    float: left;
+}
+
+li {
+    display: list-item;
+ 
+}
+
+
+.menu-list li>a {
+    padding: 14px 15px;
+    color: #56006b;
+    display: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 46px;
+    font-size: 15px;
+}
+li:hover {
+    border-top: 3px solid #56006b;
+}
